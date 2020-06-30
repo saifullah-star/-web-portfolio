@@ -18,9 +18,11 @@ body{
 }
 .half-width img{
     width: 100%;
-
 }
 
+.half-width p{
+    text-align: justify;
+}
 
 .top-banner{
     background-image: url(images/top-banner.png);
