@@ -7,24 +7,21 @@ body{
 
 .name-highlight{
     color: #db0d74;
+    text-transform: capitalize;
     font-size: 30px;
 }
-
-
 .half-width{
     width: 40%;
     float: left;
     margin: 3%;
-    padding: 2%;
+    padding: 1%;
 }
 .half-width img{
     width: 100%;
 
 }
-.half-width p{
-    text-align: justify;
 
-}
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -32,6 +29,8 @@ body{
 
 section{
    height: 500px;
+   padding-bottom: 200px;
+
 }
 .link-button{
     text-decoration: none;
@@ -43,6 +42,7 @@ section{
 }
 .highlight-heading{
     color: orange;
+    font-size: 35px;
 }
 .cv-button{
     text-decoration: none;
@@ -52,9 +52,41 @@ section{
     color: white;
     font-weight: 600;
 }
-.mid-area{
+.dream-area{
     height: 500px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+
+.orenge-hilight{
+    color: orange;
+}
+
+.single-experience{
+    font-weight: normal;
+    box-shadow: 10px 10px 38px gray;
+    height: 80%;
+    background-color: white;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(248, 174, 13), rgb(241, 58, 25));
+    border-image-slice: 1;
+}
+
+#jun-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
